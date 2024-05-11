@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+  </head>
+  <body>
+    <!-- attribut table  -->
+    <!-- border ==> garis tepi -->
+    <!-- cellspacing ==> untuk jarak tiap-tiap kolom -->
+    <!-- cellpadding ==>  untuk jarak isi kolom -->
+    <!-- colspan = baris -->
+    <!-- rowspan = kolom -->
+    <!-- struktur Table -->
+    <h3>Table Biasa</h3>
+    <table border="1" cellspacing="20" cellpadding="5">
+      <tr>
+        <td>Baris 1, kolom 1</td>
+        <td>Baris 1, kolom 1</td>
+      </tr>
+      <tr>
+        <td>baris 2, kolom 2</td>
+        <td>baris 2, kolom 2</td>
+      </tr>
+    </table>
+    <hr />
+    <table>
+      <thead>
+        <tr>
+          <th>Kolom 1</th>
+          <th>Kolom 2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Baris 1</th>
+          <td>Baris 1, Kolom 1</td>
+          <td>Baris 1, Kolom 2</td>
+        </tr>
+        <tr>
+          <th>Baris 2</th>
+          <td>Baris 2, Kolom 1</td>
+          <td>Baris 2, Kolom 2</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <h3>Table Merging</h3>
+    <!-- Colspan ==> Mengabungkan 2 baris -->
+    <table border="1" cellspacing="" cellpadding="5">
+      <tr>
+        <td rowspan="3">Kolom</td>
+        <td colspan="2">Garis</td>
+        <!-- <td>b</td>
+        <td>c</td> -->
+      </tr>
+      <tr>
+        <td>e</td>
+        <td>f</td>
+      </tr>
+      <tr>
+        <td>h</td>
+        <td>i</td>
+      </tr>
+    </table>
+    <hr />
+    <h3>Latihan</h3>
+    <table border="1" cellpadding="5">
+      <tr>
+        <td>a</td>
+        <td>b</td>
+        <td>d</td>
+        <td>e</td>
+      </tr>
+      <tr>
+        <td>f</td>
+        <td colspan="2"></td>
+
+        <td>i</td>
+      </tr>
+      <tr>
+        <td>j</td>
+        <td colspan="2"></td>
+
+        <td>m</td>
+      </tr>
+      <tr>
+        <td>n</td>
+        <td>o</td>
+        <td>p</td>
+        <td>q</td>
+      </tr>
+    </table>
+  </body>
+</html>
