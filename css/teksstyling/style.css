@@ -1,0 +1,10 @@
+h1 {
+  /* color: ; == memberi warna */
+  /* text-align: ; == mengatur format paragraf/teks */
+  /* text-indent: ; == memberi indentasi pada teks*/
+  /* text-decoration: ; == mengatur dekorasi pada teks*/
+  /* text-transform: ; == mengubah huruf menjadi besar,kecil,kapital */
+  /* letter-spacing: ; == mengatur spasi antar huruf */
+  /* word-spacing: ;== mengatur spasi antar kata */
+  color: aqua;
+}
