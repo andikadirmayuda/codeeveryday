@@ -10,11 +10,9 @@ body {
 
 .header {
   padding: 20px;
-  border-bottom: 1px solid black;
 }
 .header h1 {
   color: brown;
-  text-align: center;
 }
 
 .header ul li {
@@ -25,6 +23,15 @@ body {
 a {
   text-decoration: none;
   color: brown;
+}
+
+.hero {
+  height: 300px;
+  background-image: url(img/01.jpg);
+  background-size: cover;
+  background-position: 0 -10px;
+  border-top: 2px solid brown;
+  border-bottom: 2px solid brown;
 }
 
 main,
@@ -52,6 +59,6 @@ footer {
 
 footer a {
   text-align: center;
-  padding-top: 15px;
+  padding: 15px;
   display: block;
 }
