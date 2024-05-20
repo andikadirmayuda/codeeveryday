@@ -46,8 +46,38 @@ main p {
   letter-spacing: 5px;
 }
 
+.contact {
+  width: 600px;
+  height: 100px;
+  margin: auto;
+  padding-bottom: 50px;
+}
 .contact h3 {
   text-align: center;
+}
+
+.contact .kiri {
+  background-color: black;
+  width: 200px;
+  color: blueviolet;
+  text-align: center;
+  height: 50px;
+  border-radius: 10px;
+  line-height: 50px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.contact .tengah {
+  float: left;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  line-height: 50px;
+
+  background-color: black;
+  border-radius: 10px;
+  color: blueviolet;
 }
 
 footer {
