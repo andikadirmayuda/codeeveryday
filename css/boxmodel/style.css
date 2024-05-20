@@ -47,7 +47,7 @@ main p {
 }
 
 .contact {
-  width: 600px;
+  width: 400px;
   height: 100px;
   margin: auto;
   padding-bottom: 50px;
@@ -58,7 +58,32 @@ main p {
 
 .contact .kiri {
   background-color: black;
-  width: 200px;
+  width: 195px;
+  color: blueviolet;
+  text-align: center;
+  height: 50px;
+  border-radius: 10px;
+  line-height: 50px;
+  float: left;
+  margin-right: 5px;
+  box-sizing: border-box;
+}
+
+.contact .tengah {
+  background-color: black;
+  width: 95px;
+  color: blueviolet;
+  text-align: center;
+  height: 50px;
+  border-radius: 10px;
+  line-height: 50px;
+  float: left;
+  margin-right: 5px;
+  box-sizing: border-box;
+}
+.contact .kanan {
+  background-color: black;
+  width: 100px;
   color: blueviolet;
   text-align: center;
   height: 50px;
@@ -66,18 +91,6 @@ main p {
   line-height: 50px;
   float: left;
   box-sizing: border-box;
-}
-
-.contact .tengah {
-  float: left;
-  width: 200px;
-  height: 100px;
-  text-align: center;
-  line-height: 50px;
-
-  background-color: black;
-  border-radius: 10px;
-  color: blueviolet;
 }
 
 footer {
