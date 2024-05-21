@@ -30,9 +30,15 @@ img {
   border-bottom: 1px solid orangered;
 }
 
+.main {
+  padding: 20px;
+}
+
 .about {
   border: 1px solid black;
   padding: 10px;
+  width: 600px;
+  float: left;
 }
 
 .contact {
