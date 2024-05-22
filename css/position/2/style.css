@@ -1,0 +1,25 @@
+body {
+  height: 2000px;
+}
+h1 {
+  text-align: center;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+.satu {
+  background-color: blue;
+}
+.dua {
+  background-color: blueviolet;
+  top: 150px;
+  left: 100px;
+}
+.tiga {
+  background-color: brown;
+  top: 200px;
+  left: 200px;
+}
