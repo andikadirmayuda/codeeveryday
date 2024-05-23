@@ -1,0 +1,23 @@
+body {
+  height: 1000px;
+}
+header {
+  background-color: blueviolet;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  position: fixed;
+}
+.judul {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  font-weight: 500;
+  line-height: 50px;
+  display: inline-block;
+  position: absolute;
+  background-color: brown;
+  width: 300px;
+  border-radius: 10px;
+  top: -21px;
+  right: 500px;
+}
