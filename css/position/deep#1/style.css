@@ -1,0 +1,47 @@
+body {
+  height: 1000px;
+  background-color: blueviolet;
+}
+
+.judul {
+  padding-top: 20px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.content {
+  border: 2px solid black;
+  width: 500px;
+  height: 450px;
+  margin: auto;
+  position: relative;
+}
+
+div {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+
+.kotak1 {
+  background-color: grey;
+}
+.kotak2 {
+  background-color: brown;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.kotak3 {
+  background-color: orange;
+}
+
+.navbar {
+  background-color: blanchedalmond;
+  width: 100%;
+  height: 40px;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 9999;
+}
