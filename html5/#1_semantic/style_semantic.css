@@ -9,6 +9,7 @@ body {
   border: 3px solid black;
   width: 500px;
   margin: auto;
+  padding: 20px;
 }
 p {
   width: 500px;
@@ -26,7 +27,23 @@ p {
   height: 20px;
   border-radius: 10px;
 }
+.judul #why2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: black;
+  color: orange;
+  display: flex;
+  text-align: center;
+  width: 450px;
+  margin: 20px auto;
+  justify-content: center;
+  height: 20px;
+  border-radius: 10px;
+}
 
+a {
+  text-decoration: none;
+  color: orange;
+}
 .container {
   margin: 20px;
 }
