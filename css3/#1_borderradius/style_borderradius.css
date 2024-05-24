@@ -13,3 +13,15 @@ body {
   text-align: center;
   margin: 90px auto;
 }
+
+.contoh2 {
+  width: 200px;
+  height: 200px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  background-color: blueviolet;
+  line-height: 500px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 90px auto;
+}
