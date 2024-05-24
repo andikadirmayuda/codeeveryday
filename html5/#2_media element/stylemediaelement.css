@@ -8,5 +8,19 @@ body {
   width: 400px;
   margin: auto;
   text-align: center;
-  padding: 20px;
+  padding: 5px;
+}
+
+p {
+  background-color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  color: orange;
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 10px;
+  margin: auto;
 }
