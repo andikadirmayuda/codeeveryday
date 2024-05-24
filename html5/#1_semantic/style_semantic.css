@@ -24,7 +24,8 @@ p {
   width: 300px;
   margin: 20px auto;
   justify-content: center;
-  height: 20px;
+  height: 40px;
+  line-height: 40px;
   border-radius: 10px;
 }
 .judul #why2 {
@@ -36,13 +37,20 @@ p {
   width: 450px;
   margin: 20px auto;
   justify-content: center;
-  height: 20px;
+  height: 40px;
+  line-height: 40px;
   border-radius: 10px;
 }
 
 a {
   text-decoration: none;
   color: orange;
+}
+
+button {
+  background-color: black;
+  border: none;
+  border-radius: 5px;
 }
 .container {
   margin: 20px;
