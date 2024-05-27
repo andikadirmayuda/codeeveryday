@@ -28,6 +28,6 @@ main {
   display: block;
   margin: 20px auto;
 }
-img {
-  width: 500px;
+.image {
+  background-image: url("./image/media.jpg");
 }
